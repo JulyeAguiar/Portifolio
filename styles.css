@@ -61,9 +61,8 @@ body {
     border: 2px solid #e5b36b;
 }
 
-/* Responsividade para telas menores (mobile) */
 @media (max-width: 768px) {
     .container {
-        grid-template-columns: 1fr; /* Uma coluna no mobile */
+        grid-template-columns: 1fr; 
     }
 }
