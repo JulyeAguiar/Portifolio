@@ -1,22 +1,27 @@
-
-@import url(https://fonts.google.com/specimen/Outfit);
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: "Outfit", sans-serif;
     min-height: 100vh;
-    background-color: #e8d7f1; 
+    background-color: #e8d7f1;
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 15px;
+    padding: 20px;
 }
 
 .container {
-    max-width: 350px;
+    display: grid; /* Usar grid para responsividade */
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas no desktop */
+    gap: 20px; /* Espaçamento entre os cards */
+    max-width: 800px; /* Centraliza e define a largura máxima */
     margin: 0 auto;
 }
 
@@ -25,14 +30,10 @@ body {
     padding: 18px;
     border-radius: 17px;
     text-align: center;
-    margin: 0 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.card{
-    background-color: white;
-    padding: 18px;
-    border-radius: 17px;
-}
+
 .card img {
     width: 100%;
     border-radius: 12px;
@@ -43,15 +44,25 @@ body {
 }
 
 .text h2 {
-    color: #5f4b8b; 
+    color: #5f4b8b;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .text p {
-    color: #bba7d4; 
+    color: #bba7d4;
+    font-size: 1rem;
 }
 
 .card:hover {
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); 
-    transform: scale(1.10); 
-    border: 2px solid #e5b36b; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    border: 2px solid #e5b36b;
+}
+
+/* Responsividade para telas menores (mobile) */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Uma coluna no mobile */
+    }
 }

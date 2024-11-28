@@ -24,7 +24,7 @@ class Card {
   atributos() {
     if (this.nome != "" && this.descricao != "" && this.imagem != "") {
       return `
-      <div class="container">
+      <div>
           <div class="card">
           <img src="${this.imagem}" />
           <div class="text">
