@@ -9,13 +9,13 @@
 body {
     font-family: "Outfit", sans-serif;
     min-height: 100vh;
-    background-color: #e8d7f1;
+    background-color: #fedaea; 
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15px;
     padding: 20px;
-    margin-top: 80px; 
+    margin-top: 80px;
 }
 
 .container {
@@ -24,11 +24,10 @@ body {
     gap: 20px;
     max-width: 800px; 
     margin: 0 auto;
-    
 }
 
 .card {
-    background-color: #ffffff;
+    background-color: #ffffff; 
     padding: 18px;
     border-radius: 17px;
     text-align: center;
@@ -46,37 +45,38 @@ body {
 }
 
 .text h2 {
-    color: #5f4b8b;
+    color: #6c5b8b;
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
 .text p {
-    color: #bba7d4;
+    color: #f1c40f; 
     font-size: 1rem;
 }
 
 .card:hover {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
     transform: scale(1.1);
-    border: 2px solid #e5b36b;
+    border: 2px solid #f1c40f; 
 }
 
 @media (max-width: 768px) {
     .container {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
 }
 
 .navbar {
-    background-color: #fff;
+    background-color: #a8d8ff; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
     border-bottom: 1px solid #ddd;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
-    padding: 30px 20px; 
+    padding: 10px 20px;
 }
 
 .navbar-container {
@@ -86,13 +86,14 @@ body {
 }
 
 .logo img {
-    width: 40px;
-    height: 40px;
+    width: 65px;
+    height: 65px;
 }
 
 .title h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: #6c5b8b;
+    
     margin: 0;
 }
