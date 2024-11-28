@@ -15,6 +15,7 @@ body {
     align-items: center;
     font-size: 15px;
     padding: 20px;
+    margin-top: 80px; 
 }
 
 .container {
@@ -65,4 +66,33 @@ body {
     .container {
         grid-template-columns: 1fr; 
     }
+}
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 30px 20px; 
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
 }
