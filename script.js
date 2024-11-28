@@ -24,7 +24,7 @@ class Card {
   atributos() {
     if (this.nome != "" && this.descricao != "" && this.imagem != "") {
       return `
-      <div>
+      <div class="card animate__animated animate__fadeInUp">
           <div class="card">
           <img src="${this.imagem}" />
           <div class="text">
@@ -42,6 +42,7 @@ class Card {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+
 
   const cardBella = new Card(
     "Bella - Literary Analyst",
@@ -162,5 +163,12 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const idPocahontas = document.getElementById("cardPocahontas");
   idPocahontas.insertAdjacentHTML('afterbegin', cardPocahontas.cardlist());
+
+
+  // const cards = document.querySelectorAll(".card");
+  // cards.forEach((card, index) => {
+  //   card.style.setProperty('--animate-delay', `${index * 0.2}s`);
+  //   card.classList.add("animate__animated", "animate__fadeInUp");
+  // });
 
 });
