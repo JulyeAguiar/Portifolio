@@ -42,11 +42,11 @@ class Card {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Creating cards for each character inspired by Disney Princesses
+
   const cardBella = new Card(
     "Bella - Literary Analyst",
     "The team’s strategist, always with a smart solution inspired by books.",
-    "images/bella.png"
+    "images/bela pc.png"
   );
   const idBella = document.getElementById("cardBella");
   idBella.insertAdjacentHTML('afterbegin', cardBella.cardlist());
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardAurora = new Card(
     "Aurora - Dream Specialist",
     "Brings calm and clarity to missions with her enchanted magic.",
-    "images/aurora.png"
+    "images/aurora pc.png"
   );
   const idAurora = document.getElementById("cardAurora");
   idAurora.insertAdjacentHTML('afterbegin', cardAurora.cardlist());
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardMerida = new Card(
     "Merida - Explorer",
     "Fearless and precise, leading the team through challenging terrains.",
-    "images/merida.png"
+    "images/merida pc.png"
   );
   const idMerida = document.getElementById("cardMerida");
   idMerida.insertAdjacentHTML('afterbegin', cardMerida.cardlist());
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardMoana = new Card(
     "Moana - Aquatic Navigator",
     "Guides the team through water and communicates with nature.",
-    "images/moana.png"
+    "images/moana pc.png"
   );
   const idMoana = document.getElementById("cardMoana");
   idMoana.insertAdjacentHTML('afterbegin', cardMoana.cardlist());
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardAnna = new Card(
     "Anna - Unifier",
     "The team’s morale booster, always bringing everyone together with her positive energy.",
-    "images/anna.png"
+    "images/ana pc.png"
   );
   const idAnna = document.getElementById("cardAnna");
   idAnna.insertAdjacentHTML('afterbegin', cardAnna.cardlist());
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardElsie = new Card(
     "Elsie - Ice Strategist",
     "The team’s ice expert, controlling snow and ice to create safe paths and manage extreme weather.",
-    "images/elsie.png"
+    "images/elsa pc.png"
   );
   const idElsie = document.getElementById("cardElsie");
   idElsie.insertAdjacentHTML('afterbegin', cardElsie.cardlist());
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardEsme = new Card(
     "Esme - Street Artist",
     "Spreads creativity and messages, ensuring the team is always well-received.",
-    "images/esme.png"
+    "images/esmeralda pc.png"
   );
   const idEsme = document.getElementById("cardEsme");
   idEsme.insertAdjacentHTML('afterbegin', cardEsme.cardlist());
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardRapha = new Card(
     "Rapha - Healer & Rescuer",
     "The team’s medic, using her golden ropes for elevated rescues and to heal injuries.",
-    "images/rapha.png"
+    "images/rapunzel pc.png"
   );
   const idRapha = document.getElementById("cardRapha");
   idRapha.insertAdjacentHTML('afterbegin', cardRapha.cardlist());
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardTia = new Card(
     "Tia - Chef & Motivator",
     "Keeps the team energized with delicious meals and helps them through difficult terrains.",
-    "images/tia.png"
+    "images/tiana pc.png"
   );
   const idTia = document.getElementById("cardTia");
   idTia.insertAdjacentHTML('afterbegin', cardTia.cardlist());
@@ -118,10 +118,49 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardAri = new Card(
     "Ari - Underwater Rescuer",
     "Specializes in underwater rescues with seashell-inspired tools and bubble gear.",
-    "images/ari.png"
+    "images/ariel pc.png"
   );
   const idAri = document.getElementById("cardAri");
   idAri.insertAdjacentHTML('afterbegin', cardAri.cardlist());
 
+  const cardCinderella = new Card(
+    "Cindy - Midnight Planner",
+    "Always ready to assist the team with her clockwork precision and elegant problem-solving skills.",
+    "images/cinderela pc.jpg"
+  );
+  const idCinderella = document.getElementById("cardCinderella");
+  idCinderella.insertAdjacentHTML('afterbegin', cardCinderella.cardlist());
+
+  const cardJasmine = new Card(
+    "Jaz - Sky Adventurer",
+    "With her flying carpet tools, Jaz leads the team on aerial adventures and daring rescues.",
+    "images/jasmine pc.png"
+  );
+  const idJasmine = document.getElementById("cardJasmine");
+  idJasmine.insertAdjacentHTML('afterbegin', cardJasmine.cardlist());
+
+  const cardMulan = new Card(
+    "Mila - Courage Specialist",
+    "A brave and fearless leader, Mila uses her battle-tested tactics to guide the team to victory.",
+    "images/mulan pc.png"
+  );
+  const idMulan = document.getElementById("cardMulan");
+  idMulan.insertAdjacentHTML('afterbegin', cardMulan.cardlist());
+
+  const cardSnowWhite = new Card(
+    "Snowy - Wildlife Whisperer",
+    "Snowy charms forest creatures to assist the team with her kindness and gentle leadership.",
+    "images/neve pc.png"
+  );
+  const idSnowWhite = document.getElementById("cardSnowWhite");
+  idSnowWhite.insertAdjacentHTML('afterbegin', cardSnowWhite.cardlist());
+
+  const cardPocahontas = new Card(
+    "Poca - Nature Navigator",
+    "Guides the team through nature with her wisdom and connection to the environment.",
+    "images/pocahontas pc.png"
+  );
+  const idPocahontas = document.getElementById("cardPocahontas");
+  idPocahontas.insertAdjacentHTML('afterbegin', cardPocahontas.cardlist());
 
 });
