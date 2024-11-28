@@ -18,11 +18,12 @@ body {
 }
 
 .container {
-    display: grid; /* Usar grid para responsividade */
-    grid-template-columns: repeat(2, 1fr); /* Duas colunas no desktop */
-    gap: 20px; /* Espaçamento entre os cards */
-    max-width: 800px; /* Centraliza e define a largura máxima */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    max-width: 800px; 
     margin: 0 auto;
+    
 }
 
 .card {
